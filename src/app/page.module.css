@@ -1,0 +1,33 @@
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  border: 1px solid rgb(115, 115, 115);
+  border-radius: 15px;
+  width: 300px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.inputContainer input {
+  margin-bottom: 10px;
+}
+
+.errorMessage {
+  color: #cf6679;
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
